@@ -39,7 +39,7 @@ function AuthScreen ({navigation}) {
        
       })
       .catch((error) => {
-        alert("Merci de vous iscrire. ")
+        alert("Merci de vous inscrire. ")
         // alert(error.message)
       
       });
