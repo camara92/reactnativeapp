@@ -67,7 +67,7 @@ function AuthScreen ({navigation}) {
         <TextInput
          
           required
-          placeholder="Email : adresseemail@email.com"
+          placeholder="Email : myemail@email.com"
           value={email}
           onChangeText={(text) => setEmail(text)}
           style={styles.input}
