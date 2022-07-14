@@ -1,0 +1,18 @@
+1.creation projet react native android : npx react-native init CRUD_ReactNative
+2.create with version : npx react-native init nom_projet --version X.XX.X
+3.Lancer le projet : npx react-native start : Metro bundle 
+4.Tourner l'application sur un terminal avec Metro bundle : npx react-native run-android
+******************************** Navigation Reactive ***********************************************
+1.package : npm install @react-navigation/native
+2.install react-native-screens react-native-safe-area-context
+3.npm install @react-navigation/native-stack
+4.npm install moment
+************************Firebase *******************************
+1.npm install --save @react-native-firebase/app
+2.dependance google : classpath 'com.google.gms:google-services:4.3.12'
+
+
+
+***********Forum******************
+1.https://stackoverflow.com/questions/72179070/react-native-bundling-failure-error-message-while-trying-to-resolve-module-i
+2.
