@@ -16,3 +16,23 @@
 ***********Forum******************
 1.https://stackoverflow.com/questions/72179070/react-native-bundling-failure-error-message-while-trying-to-resolve-module-i
 2.
+
+
+***************Firestore ****************
+1.installer le setup : npm install @react-native-firebase/app
+2.@react-native-firebase/firestore
+Ajouter Firestore aux dépendances App Gradle
+3. Ajoutez la dépendance du module React Native Firebase à votre /android/app/build.gradlefichier :
+include ':@react-native-firebase_firestore'
+project(':@react-native-firebase_firestore').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-firebase/firestore/android')
+4.Ajoutez la dépendance du module React Native Firebase à votre /android/app/build.gradlefichier :
+
+// ..
+dependencies {
+  // ..
+  implementation project(':@react-native-firebase_firestore')
+}
+
+5.mportez et appliquez le package du module React Native Firebase à votre /android/app/src/main/java/**/MainApplication.javafichier :
+
+import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage;

@@ -13,6 +13,7 @@ function OfficeScreen ({route, navigation}) {
     {/* liste des bureaux  */}
     <Text>Bienvenue {email}</Text>
     <AppOffice email={email} />
+    
     </View>
   )
 }

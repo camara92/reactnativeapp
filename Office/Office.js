@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
      
    } , 
    dateView:{
-    
+    marginBottom: 45, 
     
      textAlign: "center", 
     

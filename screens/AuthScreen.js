@@ -38,7 +38,11 @@ function AuthScreen ({navigation}) {
         console.log(user.email);
        
       })
-      .catch((error) => alert(error.message));
+      .catch((error) => {
+        alert("Merci de vous iscrire. ")
+        // alert(error.message)
+      
+      });
   };
   // login : page de connexion if user auth 
   const messageBienvenue = "Bienvenue";
@@ -51,7 +55,7 @@ function AuthScreen ({navigation}) {
       })
       .catch((error) => {
         alert("Veiller vérifier vos identifiants de connexion. Merci de vous inscrire si ce n'est pas encore fait. 💻")
-        console.log(error);
+        // console.log(error);
       });
   };
   // redirect to page profile for example
@@ -115,7 +119,7 @@ const styles = StyleSheet.create({
     
   },
   inputContainer: {
-    width: "100%",
+    width: "95%",
   },
   input: {
     backgroundColor: "white",

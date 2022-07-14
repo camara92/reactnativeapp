@@ -260,9 +260,6 @@ dependencies {
 
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
-    // ajout de la dependance google : daoud a
-    //classpath "com.google.gms:google-services:4.3.12"
-    // fin de daouda 
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 

@@ -11,7 +11,6 @@ function HomeScreen({  route, navigation }) {
      useEffect(()=>{
        const today = Date();
      const date = moment(today).format("DD/MM/YYYY");
-    // moment().add(3, 'hours');
        SetCurrentDate(
          date
        )
