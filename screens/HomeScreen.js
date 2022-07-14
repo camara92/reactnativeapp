@@ -35,7 +35,7 @@ function HomeScreen({  route, navigation }) {
 
   const styles = StyleSheet.create({
     container: {
-      backgroundColor: "lightblue",
+      backgroundColor: "#e6e6fa",
       flex: 1,
       justifyContent: "center",
       alignItems: "center",
